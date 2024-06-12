@@ -1,0 +1,37 @@
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+ background: #f8f6f6;
+}
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+
+ background-color: #04AA6D;
+ color: white;
+ padding: 16px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+}
+
+.registerbtn:hover {
+ opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+ color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+ background-color: #fcfcfc;
+ text-align: center;
+}
