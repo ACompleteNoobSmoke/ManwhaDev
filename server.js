@@ -9,6 +9,7 @@ const cors = require('cors');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'template/pages'));
 app.use(express.static(path.join(__dirname, "template/styles")));
+app.use('/', express.static(path.resolve(__dirname, "template/styles")))
 app.use(cors());
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}))

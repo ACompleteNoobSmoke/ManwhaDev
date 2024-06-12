@@ -33,3 +33,5 @@
         }
 
 14. pm2 start server.js --name=<insertname>
+
+/home/ec2-user/actions-runner/_work/ManwhaDev/ManwhaDev/template
