@@ -6,7 +6,7 @@ const router = express.Router();
 // User Login Endpoint
 router.post(`/login`, async (req, res) => {
     console.log(req.body);
-    return res.redirect('https://www.youtube.com/watch?v=HeCZZ131-HQ');
+    return res.redirect('https://26.media.tumblr.com/tumblr_lozxdhD8XE1ql2qzuo1_400.gif');
     
 })
 
