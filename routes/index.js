@@ -6,7 +6,7 @@ const router = express.Router();
 // User Login Endpoint
 router.post(`/login`, async (req, res) => {
     console.log(req.body);
-    //res.send(req.body.name);
+    return res.send(req.body);
     
 })
 
